@@ -1,0 +1,50 @@
+body {
+  font-family: Lato;
+  background-color: rgb(209, 203, 211);
+}
+
+.movieForm {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+}
+label {
+  font-size: 18px;
+}
+
+.movieForm input {
+  height: 40px;
+  margin: 10px;
+  border: purple 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+.movieForm input::placeholder {
+  color: palevioletred;
+  font-style: italic;
+}
+
+.buttonForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.buttonForm button {
+  background-color: blue;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+}
+.buttonForm button:hover {
+  cursor: pointer;
+  background-color: darkmagenta;
+}
